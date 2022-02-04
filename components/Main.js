@@ -8,7 +8,7 @@ const Main = ({ walletAddress, sanityTokens, thirdwebToken }) => {
     <Wrapper>
       <Portfolio
         sanityTokens={sanityTokens}
-        thirdwebToken={thirdwebToken}
+        thirdwebTokens={thirdwebToken}
         walletAddress={walletAddress}
       />
       <Promos />

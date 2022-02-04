@@ -45,7 +45,7 @@ const Dashboard = ({ address }) => {
         <Header
           walletAddress={address}
           sanityTokens={sanityTokens}
-          thirdwebToken={thirdwebToken}
+          thirdwebTokens={thirdwebToken}
         />
         <Main
           walletAddress={address}
