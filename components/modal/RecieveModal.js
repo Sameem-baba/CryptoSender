@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { client } from "../../lib/sanity";
 import styled from "styled-components";
 
-const RecieveModal = ({ selectedToken, setAction, walletAddress }) => {
+const RecieveModal = ({ selectedToken, walletAddress }) => {
   const [imageUrl, setImageUrl] = useState(null);
   const [copied, setCopied] = useState(false);
 
